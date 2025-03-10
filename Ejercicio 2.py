@@ -16,5 +16,5 @@ def invertir_palabras(frase):
     return frase_invertida
 
 
-frase = input("Por favor, ingresa una frase: ")
+frase = input("Ingresa una frase: ")
 print(f"La frase con las palabras invertidas es: {invertir_palabras(frase)}")

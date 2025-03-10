@@ -15,6 +15,6 @@ def contar_vocales_consonantes(palabra):
     return num_vocales, num_consonantes
 
 
-palabra = input("Por favor, ingresa una palabra: ")
+palabra = input("Ingresa una palabra: ")
 vocales, consonantes = contar_vocales_consonantes(palabra)
 print(f"La palabra '{palabra}' contiene {vocales} vocales y {consonantes} consonantes.")
